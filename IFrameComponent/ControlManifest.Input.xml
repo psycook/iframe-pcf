@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="smc" constructor="IFrameComponent" version="0.0.1" display-name-key="IFrameComponent" description-key="IFrameComponent description" control-type="standard" >
+
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <property name="src" display-name-key="Source" description-key="The url for the iFrame source." of-type="SingleLine.Text" usage="input" required="true" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+
+  </control>
+</manifest>
